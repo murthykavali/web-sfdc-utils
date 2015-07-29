@@ -9,12 +9,12 @@ import java.util.Map;
  */
 public class RESTApiCaller {
 
-    public Map<String,Object> get(String url, List<Map<String,Object>> headers){
+    public static Map<String,Object> get(String url, List<Map<String,Object>> headers){
         return new HashMap<String, Object>();
     }
 
 
-    public Map<String,Object> post(String url, List<Map<String,Object>> headers, String body){
+    public static Map<String,Object> post(String url, List<Map<String,Object>> headers, String body){
         return new HashMap<String, Object>();
     }
 
